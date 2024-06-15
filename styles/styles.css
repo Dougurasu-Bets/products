@@ -1,0 +1,193 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0000ff, #800080);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-top: 10px;
+}
+
+main {
+    flex: 1;
+}
+
+.banner img,
+.roulette-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.roulette-banner {
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+#funcionalities .dropdown-content.active {
+    margin-top: 10px !important;
+}
+
+#funcionalities {
+    padding: 20px;
+    min-height: calc(100vh - 250px);
+    position: relative;
+}
+
+#funcionalities h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+#funcionalities .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+#funcionalities .feature {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+#funcionalities .feature img {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+#funcionalities .feature p {
+    margin: 0;
+}
+
+#funcionalities .feature:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#doubts {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #290979;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#doubts h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#doubts h3 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#doubts ol {
+    color: #fff;
+    line-height: 1.6;
+    padding-left: 20px;
+}
+
+#doubts ol li strong {
+    color: #fff;
+    font-size: 18px;
+}
+
+#buy img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.cta-button {
+    background-color: #f3ff8b;
+    color: #181fdc;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff66ff;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+footer .contact,
+footer .email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+}
+
+footer p {
+    margin: -10px 0;
+}
+
+footer p.copyright {
+    margin-top: 20px;
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+main,
+#funcionalities,
+#buy {
+    width: 67%;
+    margin: 0 auto;
+}
